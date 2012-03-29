@@ -56,19 +56,26 @@ To the following XML:
 
 And the following JSON:
 
-    {"Placemark" : 
-       {"AddressDetails" : 
-          {"Country" : 
-             {"CountryNameCode" : "US",
-             "AdministrativeArea" : 
-                {"AdministrativeAreaName" : "CA",
-                "Locality" : 
-                   {"LocalityName" : "Mountain View",
-                   "Thoroughfare" : 
-                      {"ThoroughfareName" : "1600 Amphitheatre Pkwy"},
-                   "PostalCode" : 
-                      {"PostalCodeNumber" : "94043"}}}}}}}
-
+    {
+       "Placemark" : {
+          "AddressDetails" : {
+             "Country" : {
+                "CountryNameCode" : "US",
+                "AdministrativeArea" : {
+                   "AdministrativeAreaName" : "CA",
+                   "Locality" : {
+                      "LocalityName" : "Mountain View",
+                      "Thoroughfare" : {
+                         "ThoroughfareName" : "1600 Amphitheatre Pkwy"
+                      },
+                      "PostalCode" : {
+                         "PostalCodeNumber" : "94043"
+                      }
+                   }
+                }
+             }
+          }
+       }}
 
 Compile the Example
 -------------------
